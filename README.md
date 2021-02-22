@@ -1,2 +1,0 @@
-# cyrkmc
-tak o XD
