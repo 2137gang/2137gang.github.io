@@ -2,13 +2,9 @@
 <head>
 <link rel="stylesheet" href="./files/css/index.css">
 <title>CyrkMC Home</title>
-<script>
-window.onload = function() {
-  var context = new AudioContext();
-}
-</script>
-<audio id="player" autoplay loop>
-    <source src="./files/music/index.mp3" type="audio/mp3">
+<iframe src=”./files/music/index.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio” style=”display:none”></iframe>
+<audio autoplay>
+<source src=”./files/music/index.mp3″ type=”audio/mp3″>
 </audio>
 </head>
 <body>
